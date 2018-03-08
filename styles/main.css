@@ -1,0 +1,158 @@
+body {
+font-family: 'Open Sans', sans-serif;
+background: white;
+}
+
+
+header {
+min-height: 80vh;
+background-image: url('images/bg-image.jpg');
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+align-content: center;
+}
+
+.header-content-block {
+  background: rgba(0,139,139,0.5);
+  padding: 15px;
+  text-align: center
+
+}
+header-content-block h1 {
+  font-size: 4em;
+}
+
+#bio {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: #171819;
+color: white;
+padding: 10px;
+}
+#bio h1 {
+  position: relative;
+  left: 30px;
+}
+.bio-content-block {
+margin-left: 5px;
+justify-content: center;
+position: relative;
+left: 45px;
+}
+
+
+
+.comp-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+.comp-section-item {
+  width: 32%;
+  margin: 10px;
+  max-width: 320px;
+  min-width: 300px;
+  color: #334444;
+}
+.comp-section-item p {
+  text-align: center;
+}
+
+.comp-section-item h2 {
+    color: black;
+    font-size: 3em;
+}
+.comp-section-item img {
+    width: 100%;
+}
+
+
+
+.portfolio {
+
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+}
+
+.portfolio a {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio-content :hover {
+
+  color:grey;
+  animation: fadein 5s;
+  -webkit-animation: fadein 5s; /* Safari and Chrome */
+}
+
+
+
+img {
+    opacity: 1.0;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+img:hover {
+    opacity: 0.6;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}​
+
+
+.portfolio-content a {
+  position: relative;
+text-decoration: none;
+display: flex;
+text-align: right;
+color:#000000;
+}
+
+.portfolio-content h2 {
+display: flex;
+  background-color: white;
+}
+
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    text-align: center;
+
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em;
+font-family: 'Walter Turncoat', cursive;
+}
+
+
+
+
+.footer_bottom {
+    background-color: #2d2e30;
+}
+ .footer_bottom p {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    color: #aaaaaa;
+text-align: : center;
+  padding: 5px;
+  padding-left: 10px;
+}
